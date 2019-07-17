@@ -81,7 +81,7 @@ class NumericInput extends React.Component {
 class NumericInputDemo extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { value: '' };
+    this.state = { value: 'B' };
   }
 
   onChange = value => {
